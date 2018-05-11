@@ -1,0 +1,16 @@
+{
+  "name": "ch_om",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://charlyoma007@bitbucket.org/charlyoma007/ch_om.git"
+  },
+  "author": "Charles Oma",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/charlyoma007/ch_om#readme"
+}
