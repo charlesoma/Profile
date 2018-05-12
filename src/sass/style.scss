@@ -83,7 +83,7 @@ img {
 	}
 	p {
 		position: relative;
-		left: 30%;
+		left: 28%;
 		color: $color_chicago_approx;
 		text-align: center;
 		padding: 14px;
@@ -128,7 +128,7 @@ img {
 	img {
 		width: 500px;
 		display: flex;
-		margin: 0 auto;
+		margin-left: 30%;
 	}
 	.button--state-info {
 		border: none;
@@ -138,7 +138,10 @@ img {
 	}
 	.hide {
 		display: none;
-	}
+    }
+    .profile {
+        width: 100%;
+    }
 	.profile-picture {
 		position: relative;
 		top: 55px;
@@ -155,7 +158,8 @@ img {
 		position: relative;
 		z-index: 10;
 		right: 0;
-		margin-top: -110px;
+        margin-top: -110px;
+        display: inline-grid;
 	}
 	.topnav {
 		background-color: $white;
@@ -204,7 +208,7 @@ img {
 	}
 	.topnav p {
 		position: relative;
-		left: 18%;
+		left: 16%;
 		color: $color_chicago_approx;
 		text-align: center;
 		padding: 14px;
