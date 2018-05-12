@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.button {
+  border-radius: 3px;
+  border: 2px solid black;
+  background-color: #fff;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px; }
+
+.button--state-info {
+  border-color: #2196f3;
+  color: dodgerblue;
+  font-size: 12px;
+  float: right; }
+  .button--state-info:hover {
+    background: #2196f3;
+    color: #fff; }
+
+.button--state-default {
+  border-color: #e7e7e7;
+  color: black;
+  margin-top: 40px;
+  margin-left: 40%; }
+  .button--state-default:hover {
+    background: #e7e7e7; }
+
+.profile-picture {
+  position: relative;
+  top: 55px;
+  z-index: 10;
+  margin: 20px;
+  margin-top: 5%; }
+
+img {
+  box-shadow: 0 0 10px 3px #e7e7e7;
+  width: 230px; }
+
+.topnav {
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: -1px 1px 3px #9c9c9c; }
+  .topnav a {
+    float: left;
+    color: #5a5959;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; }
+    .topnav a:hover {
+      background: linear-gradient(#fff 93%, #018dfe 7%);
+      color: black; }
+    .topnav a.active {
+      background: linear-gradient(#fff 93%, #018dfe 7%);
+      color: black; }
+  .topnav p {
+    position: relative;
+    left: 30%;
+    color: #5a5959;
+    text-align: center;
+    padding: 14px;
+    margin: 0;
+    text-decoration: none; }
+
+.menu-right {
+  margin-left: 19%; }
+
+.review {
+  position: absolute;
+  z-index: 10;
+  right: 20px;
+  top: 20%; }
+
+.review--stars {
+  margin-right: 15px;
+  color: #018dfe; }
+
+.details {
+  padding: 50px; }
+
+.ion-md-create {
+  margin-left: 20px;
+  background-color: grey;
+  padding: 8px 15px; }
+  .ion-md-create:hover {
+    background-color: #018dfe;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 15px; }
+
+.desktop-hide {
+  display: none; }
+
+@media only screen and (max-device-width: 414px) {
+  body {
+    font-size: 50px; }
+  img {
+    width: 500px;
+    display: flex;
+    margin: 0 auto; }
+  .button--state-info {
+    border: none;
+    color: dodgerblue;
+    font-size: 40px;
+    float: right; }
+  .hide {
+    display: none; }
+  .profile-picture {
+    position: relative;
+    top: 55px;
+    z-index: 10;
+    display: block; }
+  .container {
+    padding: 50px; }
+    .container div {
+      display: block; }
+  .review {
+    position: relative;
+    z-index: 10;
+    right: 0;
+    margin-top: -110px; }
+  .topnav {
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: -1px 1px 7px 2px #9c9c9c; }
+    .topnav a {
+      float: left;
+      color: #5a5959;
+      text-align: center;
+      padding: 40px 20px;
+      text-decoration: none;
+      font-size: 50px;
+      width: 20%; }
+    .topnav p {
+      position: relative;
+      left: 30%;
+      color: #5a5959;
+      text-align: center;
+      padding: 14px;
+      margin: 0;
+      text-decoration: none; }
+  .profile--name-mobile {
+    margin-left: 30%;
+    margin-top: 100px; }
+  .menu-right {
+    margin-left: 0; }
+  .mobile-edit {
+    position: relative;
+    float: right;
+    background-color: grey;
+    padding: 10px 20px; }
+  .desktop-hide {
+    display: initial; } }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 1100px) {
+  .menu-right {
+    margin-left: 27%; }
+  .topnav p {
+    position: relative;
+    left: 18%;
+    color: #5a5959;
+    text-align: center;
+    padding: 14px;
+    margin: 0;
+    text-decoration: none; } }
+
+.container div {
+  display: inline-block; }

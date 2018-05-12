@@ -4,11 +4,11 @@ import Page from './page';
 
 const r = new Router(
     {
-      about: new Layout(new Page('menu.html'), new Page('about.html')),
       settings: new Layout(new Page('menu.html'), new Page('settings.html')),
-      options: new Layout(new Page('menu.html'), new Page('options.html')),
-      home: new Layout(new Page('menu.html'), new Page('home.html')),
-      '#default': new Layout(new Page('menu.html'), new Page('home.html'))
+      option1: new Layout(new Page('menu.html'), new Page('option1.html')),
+      option2: new Layout(new Page('menu.html'), new Page('option2.html')),
+      about: new Layout(new Page('menu.html'), new Page('about.html')),
+      '#default': new Layout(new Page('menu.html'), new Page('about.html'))
     },
     document.querySelector('main')
   );
